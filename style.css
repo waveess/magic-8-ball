@@ -1,8 +1,10 @@
+body{
+    background-color:rgb(247, 233, 245);
+}
 #content { 
     width: 600px; 
     margin: 0 auto; 
     margin-top: 50px; 
-    /* border: 1px dotted black;        */
     text-align: center; 
     font-family: 'Helvetica Neue', arial; 
     font-weight: 100;
@@ -10,7 +12,7 @@
    
    div.eight-ball {
      background-color: rgb(27, 1, 14);
-     border: 1px solid rgb(188, 125, 155);
+     border: 1px solid rgb(232, 230, 231);
      border-radius: 50%;
      width: 300px;
      height: 300px;
@@ -20,8 +22,8 @@
    }
    
    div.answer {
-     background-color: rgb(227, 193, 212);
-     border: 1px solid rgb(205, 174, 217);
+     background-color: rgb(153, 120, 183);
+     border: 1px solid rgb(3, 0, 4);
      border-radius: 50%;
      width: 50%;
      height: 50%;
@@ -29,16 +31,18 @@
    }
    
    p#eight {
-     font-size: 5em;
-     margin: 20% auto;
-     color: white;
+    font-family: "Brandon Grotesque Regular";
+     font-size: 2rem;
+     margin: 30% auto;
+     color: rgb(255, 255, 255);
    }
    
    p#answer {
      padding: 23px;
-     color: lightblue;
+     color: rgb(255, 255, 255);
      letter-spacing: 2px;
      font-size:18px;
+     margin-top: 20;
    }
    
    #question {
@@ -50,4 +54,6 @@
    
    #info {
      font-size: 22px;
+     font-family: "Brandon Grotesque Regular";
+     color:rgb(26, 1, 18);
    }
